@@ -1,41 +1,31 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body {
-  height: 100vh;
-  margin: 0;
-  display: grid;
-  place-items: center;
-  background: #222;
-}
-
-.module {
-  max-width: 250px;
-  padding: 1rem;
-  color: white;
-  border-width: 3px;
-  border-style: solid;
-  border-image: 
-    linear-gradient(
-      to bottom, 
-      red, 
-      rgba(0, 0, 0, 0)
-    ) 1 100%;
-}
-
+  .list-group-mine .list-group-item {
+        background-color: #f1f9fb;
+        border-top: 1px solid #0091b5;
+        border-left-color: #fff;
+        border-right-color: #fff;
+      }
+      
+      .list-group-mine .list-group-item:hover {
+        background-color: red;
+      }
     </style>
-</head>
-<body>
-    
-</body>
-</html>
-
-<div class="module">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero pariatur corporis quaerat voluptatum eos tempora temporibus nisi voluptates sed, exercitationem sequi dolore culpa incidunt accusamus, quasi unde reprehenderit ea molestias.
-    </div>
-    
+  
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+   
+  <div class="list-group list-group-mine">
+    <a class="list-group-item" href="/path"><strong>Item 1</strong></a>
+    <a class="list-group-item" href="/path"><strong>Item 2</strong></a>
+    <a class="list-group-item" href="/path"><strong>Item 3</strong></a>
+  </div>
+  </body>
+  </html>
