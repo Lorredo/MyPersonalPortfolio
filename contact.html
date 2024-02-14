@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <style>
+        body{
+          font-family: "Lucida Console", Courier, monospace;
+        }
+        
+        footer img{
+      filter: brightness(0) invert(1);
+      margin: 0 8px;
+    }
+      .stroke-text {
+        -webkit-text-stroke-width: 4px; /* Set the stroke width */
+        -webkit-text-stroke-color: white; /* Set the stroke color */
+        color: white; /* Set the text color */
+      }
+   
+  .navbar-dark .navbar-nav .nav-link:hover {
+     color: #17A2B8;
+  }
+  .navbar-dark .navbar-nav .nav-link.active {
+    color: #17A2B8;
+  }
+  .gradient-border{
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #222 0%, #17A2B8 50%, #222 100%) 1;
+  
+  }
+   </style> 
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-0 gradient-border position-fixed w-100" style="z-index: 1000;">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="imgs/logo.png" alt="" width="40px" height="40px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item me-3">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link " href="aboutme.html">About</a>
+              </li>
+              <li class="nav-item me-3 ">
+                <a class="nav-link "  href="skill.html">Skills</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link"  href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown me-3">
+                <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Recent Projects
+            </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="file:///C:/Users/My%20Account/Downloads/petservice/Pet_Service/index.html">Kalinga ALaga Pet Service Website</a></li>
+           
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+        
+      </nav>
+
+<div class="container-fluid">
+    <div class="row bg-dark d-flex align-items-center" style="height: 250px;">
+        <div class="col d-flex align-items-center justify-content-center flex-column mt-5">
+            <p class="h1 text-white">Contact Us</p>
+            <p class="h6 text-white-50">Our team of costumer of care ninjas is ready to hear from you</p>
+        </div>
+        
+      </div>
+</div>
+<div class="container mt-5 mb-5">
+    <div class="row">
+        
+           
+              <div class="card p-0 me-2" style="width: 49%;">
+                <div class="card-header">
+                    Reach out to us!
+                </div>
+                <div class="card-body">
+                  <div class="container mt-5">
+                    <div class="text-center">
+                      <h2>Get in touch</h2>
+                      <p class="lead">Questions? Do not hesitate to contact us.</p>
+                    </div>
+                    <div class="row my-5">
+                      <div class="col-lg-12">
+                        <form action="" >
+                          <label for="email" class="form-label">Email:</label>
+                          <input
+                            type="email"
+                            id="email"
+                            placeholder="my@email.com"
+                            class="form-control"
+                          />
+                          <div class="form-floating my-4">
+                            <input
+                              type="name"
+                              id="name"
+                              placeholder="e.g. Dawid"
+                              class="form-control"
+                            />
+                            <label for="name" class="form-label">Name:</label>
+                          </div>
+                          <label for="subject" class="form=label">Subject</label>
+                          <select name="subject" id="subject" class="form-select">
+                            <option value="pricing">Pricing</option>
+                            <option value="technical" selected>Technical question</option>
+                            <option value="other">Other</option>
+                          </select>
+              
+                          <div class="form-floating my-4">
+                            <textarea
+                              name="query"
+                              id="query"
+                              style="height: 150px"
+                              class="form-control"
+                              placeholder="Write a message"
+                            ></textarea>
+              
+                            <label for="query">Write a message</label>
+                          </div>
+              
+                          <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Send!</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+         
+          <div class="card p-0 ms-2" style="width: 49%;">
+            <h5 class="card-header">My Location and Accounts</h5>
+            <img 
+              src="imgs/Capture.JPG"
+              class="card-img-top mt-5"
+              alt="..."
+            />
+            <div class="card-body">
+                <div class="card-text">
+                    <p class="small" style="text-align: justify;">Today was a whirlwind of emotions and experiences, from the highs of achieving a personal milestone to the lows of navigating unexpected challenges. Despite the hurdles, I found strength in the support of loved ones and the resilience within myself. Reflecting on the day's journey, I'm reminded of the power of perseverance and the importance of cherishing moments of joy amidst life's uncertainties. Here's to embracing the journey, wherever it may lead, and finding beauty in every step along the way. <span class="text-bold"> #PersonalGrowth #EmbraceTheJourney</span></p>
+                </div>
+              <h5 class="card-title" style="color: #17A2B8;">Follow Us!</h5>
+              <div class="container  bottom-0 my-2 p-0">
+                <a href="https://web.facebook.com/profile.php?id=100007525950708">  <img class="img-fluid p-1" src="imgs/facebook-app-symbol.png" alt="" width="50px" height="50px"></a>
+            <a href="twitter.com"><img class="img-fluid p-1" src="imgs/instagram.png" alt="" width="50px" height="50px"></a>
+            <a href="instagram.com"><img class="img-fluid p-1" src="imgs/twitter.png" alt="" width="50px" height="50px"></a>
+            <a href="https://github.com/Lorredo"><img class="img-fluid p-1" src="imgs/github.png" alt="" width="50px" height="50px"></a>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+  
+        </div>
+    </div>
+</div>
+      
+
+
+      <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
