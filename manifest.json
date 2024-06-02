@@ -7,6 +7,16 @@
         "type": "image/png",
         "purpose": "any maskable"
         
+      },{
+        "src": "imgs/logo-90x90.png",
+        "sizes": "90x90",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },{
+        "src": "imgs/logo-100x100.png",
+        "sizes": "100x100",
+        "type": "image/png",
+        "purpose": "any maskable"
       }, {
         "src": "imgs/logo-192x192.png",
         "sizes": "192x192",
