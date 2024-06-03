@@ -1,0 +1,81 @@
+{
+    "data": [
+        {
+            "personal": {
+                "profile": "imgs/profile-pic-removebg-preview.png",
+                "email": "rtmlrrd567@gmail.com",
+                "address": "Brgy. Rodriguez Macalelon, Quezon",
+                "mobile_number": "09455781374",
+                "about_info": "Hello, I'm Artemio III E. Lorredo, a dedicated IT aspirant on a perpetual quest for knowledge and mastery in the ever-evolving world of technology. With a fervent passion for problem-solving and a keen eye for detail, I approach each project as a unique opportunity to innovate and contribute to the digital landscape.\n\nMy journey in IT is not just about writing lines of code; it's a continuous exploration of cutting-edge technologies and a commitment to staying at the forefront of industry trends. Proficient in Web Development, I thrive in dynamic environments where adaptability and creativity are key."
+            },
+
+            "education": {
+                "college": "Laguna State Polytechnic University",
+                "shs": "Gumaca National High School",
+                "jhs": "Macalelon High School",
+                "elementary": "Macalelon Central Elementary School"
+            },
+
+                "hobbies": [
+                {
+                    "text":[
+                        { 
+                            "what": "Computer",
+                            "description": "I'm passionate about computers, constantly exploring new programming languages, tinkering with hardware, and delving into cybersecurity."
+                        },
+                        {
+                            "what": "Basketball",
+                            "description": "Basketball brings me joy through dribbling, shooting, and teamwork. It's not just a hobby; it's a passion for competition and camaraderie."
+                        },
+                        {
+                            "what": "Singing",
+                            "description": "Singing is my escape, whether belting out tunes alone or harmonizing with friends. It's a hobby that brings me solace and connection through music."
+                        }
+                    ]    
+                },
+                {
+                    "images":[
+                        {
+                            "computer": "imgs/computer-removebg-preview (1).png"
+                        },
+                        {
+                            "basketball": "imgs/basketball.png"
+                        },
+                        {
+                            "singing": "imgs/sing-removebg-preview.png"
+                        }
+                    ]
+                }      
+            ]
+        },
+        {
+            "skills": [
+                {
+                    "type": "Web Development",
+                    "description": "As a web developer freelancer, I specialize in frontend and backend development, creating seamless user experiences and scalable applications using HTML, CSS, JavaScript, and PHP. With UI/UX design expertise and Git proficiency, I deliver tailored solutions efficiently and professionally."
+                },
+                {
+                    "type": "Graphic Design",
+                    "description": "As a freelance graphic designer, I specialize in crafting visually captivating designs that effectively communicate messages. Proficient in Adobe Illustrator, Photoshop, and InDesign, I create stunning logos, social media graphics, advertisements, and branding materials. Let's collaborate to elevate your brand and make your vision a reality."
+                },
+                {
+                    "type": "Networking",
+                    "description": "As a freelancer with basic networking skills, I excel in setting up and troubleshooting networks for seamless connectivity. Proficient in configuring routers and basic protocols, I ensure your network runs smoothly. Let's enhance your digital operations together."
+                }
+            ]
+        },
+        {
+            "icons":
+                {
+                    "html": "imgs/html.jpg",
+                    "css": "imgs/css3.jpg",
+                    "js": "imgs/javascript.png",
+                    "php": "imgs/php.png",
+                    "code": "imgs/code.png",
+                    "graphics": "imgs/design.png",
+                    "networking": "imgs/networking.png"
+                }
+            
+        }
+    ]
+}

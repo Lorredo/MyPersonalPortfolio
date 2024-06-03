@@ -10,6 +10,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    
     <style>
          
       body{
@@ -87,8 +88,8 @@ ul{
     <div class="container mb-4 position-relative" style="margin-top: 5rem; ">
               <div class="row g-0 rounded shadow-sm" style="background-color: #C6CBD0;">
                 <div class="col-md-4 d-flex justify-content-center">
-                  <img
-                    src="imgs/profile-pic-removebg-preview.png"
+                  <img id="profile"
+                    src=""
                     class="img-fluid rounded-start"
                     alt="..."
                   />
@@ -99,19 +100,16 @@ ul{
                     <h5 class="card-title"><p class="fw-bold mb-0">About</p><hr style="width: 5%; margin: 0; background: linear-gradient(to left, #17A2B8, #111); height: 8px;"></h5>
                     <ul class="list-group mb-5 " >
                         <li class="list-group-item px-0 py-1 border-0 c" style="background-color: #C6CBD0;"><div class="d-flex flex-direction-row align-items-center" >
-                            <img src="imgs/address.png" alt="" width="30px" height="30px"><p class="mb-0 ms-3">rtmlrrd567@gmail.com</p>
+                            <img src="imgs/address.png" alt="" width="30px" height="30px"><p class="mb-0 ms-3" id="email"></p>
                         </div></li>
                         <li class="list-group-item px-0 py-1 border-0 " style="background-color: #C6CBD0;"><div class="d-flex flex-direction-row align-items-center">
-                            <img src="imgs/house.png" alt="" width="30px" height="30px"><p class="mb-0 ms-3">Brgy. Rodriguez Macalelon, Quezon</p>
+                            <img src="imgs/house.png" alt="" width="30px" height="30px"><p class="mb-0 ms-3" id="address"></p>
                         </div></li>
                         <li class="list-group-item px-0 py-1 border-0 " style="background-color: #C6CBD0;"><div class="d-flex flex-direction-row align-items-center">
-                            <img src="imgs/contact.png" alt="" width="30px" height="30px"><p class="mb-0 ms-3">+639455781374</p>
+                            <img src="imgs/contact.png" alt="" width="30px" height="30px"><p class="mb-0 ms-3" id="mobile_number"></p>
                         </div></li>
                       </ul>
-                    <p class="card-text small">
-                        "Hello, I'm <strong>Artemio III E. Lorredo</strong>, a dedicated IT aspirant on a perpetual quest for knowledge and mastery in the ever-evolving world of technology. With a fervent passion for problem-solving and a keen eye for detail, I approach each project as a unique opportunity to innovate and contribute to the digital landscape.
-                        <br><br>
-                        My journey in IT is not just about writing lines of code; it's a continuous exploration of cutting-edge technologies and a commitment to staying at the forefront of industry trends. Proficient in Web Development, I thrive in dynamic environments where adaptability and creativity are key.
+                    <p class="card-text small text-justify text-indent" id="about_info">
                     </p>
                     
                   </div>
@@ -128,7 +126,7 @@ ul{
                     <div class="card-body">
                         <h5 class="card-title mb-0">College</h5><hr style="width: 15%; margin: 0; color: #17A2B8; height: 10px;">
                         <p class="card-text">
-                          <ul><li class="small">Laguna State Polytechnic University </li></ul> 
+                          <ul><li class="small" id="college"></li></ul> 
                         </p>
                     </div>
                 </div>
@@ -137,7 +135,7 @@ ul{
                 <div class="card-body">
                     <h5 class="card-title mb-0">Senior High School</h5><hr style="width: 15%; margin: 0; color: #17A2B8; height: 8px;">
                     <p class="card-text">
-                      <ul><li class="small">Gumaca National High School</li></ul> 
+                      <ul><li class="small" id="shs"></li></ul> 
                     </p> 
                 </div>
             </div>
@@ -147,7 +145,7 @@ ul{
                     <div class="card-body">
                         <h5 class="card-title mb-0">Junior High School</h5><hr style="width: 15%; margin: 0; color: #17A2B8; height: 6px;">
                     <p class="card-text">
-                      <ul><li class="small">Macalelon High School </li></ul> 
+                      <ul><li class="small" id="jhs"></li></ul> 
                     </p>
                     </div>
                 </div>
@@ -157,7 +155,7 @@ ul{
                     <div class="card-body">
                         <h5 class="card-title mb-0">Elementary</h5><hr style="width: 15%; margin: 0; color: #17A2B8; height: 5px;">
                     <p class="card-text">
-                      <ul><li class="small">Macalelon Central Elementary School</li></ul> 
+                      <ul><li class="small" id="elementary"></li></ul> 
                     </p>
            
                     </div>
@@ -172,37 +170,36 @@ ul{
                     <div class="card-group ">
                     <div class="col-md p-0">
                         <div class="card py-1 rounded-0" style="background-color: #868B8F;">
-                        <img
-                          src="imgs/computer-removebg-preview (1).png" class="card-img-top mx-auto" alt="" style="max-width: 150px; max-height: 150px;"
+                        <img id="computer_img"
+                          src="" class="card-img-top mx-auto" alt="" style="max-width: 150px; max-height: 150px;"
                         />
                         <div class="card-body" style="text-align: justify;" >
-                          <h5 class="card-title text-decoration-underline">Computer</h5>
-                          <p class="card-text small">
-                            "I'm passionate about computers, constantly exploring new programming languages, tinkering with hardware, and delving into cybersecurity."
+                          <h5 class="card-title text-decoration-underline" id="computer"></h5>
+                          <p class="card-text small" id="computer_desc">
                           </p>
                 
                         </div>
                     </div></div>
                     <div class="col-md p-0"><div class="py-1 card rounded-0" style="background-color: #C6CBD0;">
-                        <img
-                          src="imgs/basketball.png" class="card-img-top mx-auto" alt="" style="max-width: 150px; max-height: 150px;"
+                        <img id="basketball_img"
+                          src="" class="card-img-top mx-auto" alt="" style="max-width: 150px; max-height: 150px;"
                         />
                         <div class="card-body" style="text-align: justify; color: #23272B;" >
-                          <h5 class="card-title text-decoration-underline">Basketball</h5>
-                          <p class="card-text small">
-                            "Basketball brings me joy through dribbling, shooting, and teamwork. It's not just a hobby; it's a passion for competition and camaraderie."
+                          <h5 class="card-title text-decoration-underline" id="basketball"></h5>
+                          <p class="card-text small" id="basketball_desc">
                           </p>
                 
                         </div>
-                    </div></div>
+                    </div>
+                  </div>
                     <div class="col-md p-0"><div class="py-1 card rounded-0" style="background-color: #868B8F;">
-                        <img
-                          src="imgs/sing-removebg-preview.png" class="card-img-top mx-auto" alt="" style="max-width: 150px; max-height: 150px;"
+                        <img id="singing_img"
+                          src="" class="card-img-top mx-auto" alt="" style="max-width: 150px; max-height: 150px;"
                         />
                         <div class="card-body" style="text-align:justify;" >
-                          <h5 class="card-title text-decoration-underline">Singing</h5>
-                          <p class="card-text small">
-                            "Singing is my escape, whether belting out tunes alone or harmonizing with friends. It's a hobby that brings me solace and connection through music."
+                          <h5 class="card-title text-decoration-underline" id="singing"></h5>
+                          <p class="card-text small" id="singing_desc">
+                    
                           </p>
                 
                         </div>
@@ -225,6 +222,6 @@ ul{
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
-    
+    <script src="js/about.js"></script>
 </body>
 </html>
